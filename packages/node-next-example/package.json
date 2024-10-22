@@ -1,0 +1,21 @@
+{
+  "name": "node-next-example",
+  "version": "1.0.0",
+  "private": true,
+  "decription": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Brian Ingles <brianingles@illumon.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@deephaven/jsapi-nodejs": "^0.96.2-alpha-jsapi-nodejs.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.8",
+    "tsx": "^4.19.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "deephaven-jsapi-nodejs-examples",
+  "version": "1.0.0",
+  "private": true,
+  "decription": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Brian Ingles <brianingles@illumon.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:next": "pushd packages/node-next-example && npm start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
