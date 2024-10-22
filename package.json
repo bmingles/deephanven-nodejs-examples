@@ -8,7 +8,8 @@
   "author": "Brian Ingles <brianingles@illumon.com>",
   "license": "MIT",
   "scripts": {
-    "start:next": "pushd packages/node-next-example && npm start"
+    "start:cjs": "pushd packages/commonjs-example && npm start",
+    "start:esm": "pushd packages/node-next-example && npm start"
   },
   "workspaces": [
     "packages/*"

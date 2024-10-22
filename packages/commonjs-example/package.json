@@ -1,5 +1,5 @@
 {
-  "name": "node-next-example",
+  "name": "commonjs-example",
   "version": "1.0.0",
   "private": true,
   "decription": "",
@@ -7,7 +7,6 @@
   "keywords": [],
   "author": "Brian Ingles <brianingles@illumon.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "start": "tsx src/index.ts"
   },
