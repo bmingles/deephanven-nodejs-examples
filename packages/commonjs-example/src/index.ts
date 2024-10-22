@@ -1,11 +1,10 @@
 import path from "node:path";
+import { loadModules } from "@deephaven/jsapi-nodejs";
 
 // @ts-ignore
 globalThis.self = globalThis;
 // @ts-ignore
 globalThis.window = globalThis;
-
-import { loadModules } from "@deephaven/jsapi-nodejs";
 
 const tmpDir = path.join(__dirname, "..", "tmp");
 
